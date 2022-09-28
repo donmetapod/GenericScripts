@@ -2,6 +2,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
+#if UNITY_EDITOR
 public static class FindMissingScripts
 {
     [MenuItem("Utilities/Find Missing Scripts in Project")]
@@ -51,3 +52,4 @@ public static class FindMissingScripts
         }
     }
 }
+#endif

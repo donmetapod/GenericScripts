@@ -8,6 +8,7 @@ public class DestroyObject : MonoBehaviour
     
     public void DestroyWithDelay()
     {
+        // Debug.Log($"{gameObject.name} destroyed");
         OnDestroy?.Invoke();
         Destroy(gameObject, _destroyDelay);
     }

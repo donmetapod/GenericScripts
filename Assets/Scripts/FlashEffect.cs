@@ -35,5 +35,10 @@ public class FlashEffect : MonoBehaviour
                     _originalColor, Time.deltaTime * _cooldownSpeed);
             }
         }
+
+        // if (Input.GetKeyDown(KeyCode.Alpha0))
+        // {
+        //     PlayFlash();
+        // }
     }
 }
